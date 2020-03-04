@@ -9,3 +9,5 @@ jobs:
     - uses: actions/checkout@master
     - name: REUSE Compliance Check
       uses: ./
+      with:
+        cmd: --include-submodules lint
