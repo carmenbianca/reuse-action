@@ -10,4 +10,4 @@ jobs:
     - name: REUSE Compliance Check
       uses: ./
       with:
-        cmd: --include-submodules lint
+        cmd: "--include-submodules lint"
