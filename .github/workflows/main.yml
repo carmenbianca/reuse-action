@@ -10,6 +10,6 @@ jobs:
     - name: REUSE Compliance Check
       uses: ./
       with:
-        cmd: |>
+        args: |>
           --include-submodules
           lint
