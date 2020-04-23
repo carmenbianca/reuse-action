@@ -8,6 +8,6 @@ jobs:
     steps: 
     - uses: actions/checkout@master
     - name: REUSE Compliance Check
-      uses: docker://fsfe/reuse:latest
+      uses: ./
       with:
-        args: reuse --include-submodules lint
+        args: --include-submodules lint
